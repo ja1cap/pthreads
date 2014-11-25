@@ -30,8 +30,8 @@ pthreads was written with simplicity, compatibility and efficiency in mind, its 
 ## Requirements
 
 * PHP5.3+
-* ZTS Enabled ( Thread Safety )
-* Posix Threads Implementation
+* ZTS Enabled ( Thread Safety ) - http://hussainweb.me/compile-php-5-source-with-fpm-ubuntu-13-04-debian/ (--enable-maintainer-zts)
+* Posix Threads Implementation - http://www.masnun.com/2013/12/15/multithreading-in-php-doing-it-right.html
 
 Testing has been carried out on x86, x64 and ARM, in general you just need a compiler and pthread.h
 
